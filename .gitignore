@@ -1,0 +1,43 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model checkpoints and logs
+checkpoint*/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.log
+
+# Ignore data files
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore OneDrive temp files
+~$*
+
+# Ignore OS generated files
+*.swp
+*.bak
+*.tmp
+
+lora_finetuned_model/
+
+# Ignore git itself
+.git/
